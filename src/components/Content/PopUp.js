@@ -67,6 +67,7 @@ const PopUp = (props) => {
     console.log(action);
     resetNameInput();
     resetEmailInput();
+    props.onClose();
   };
 
   return (
@@ -129,7 +130,7 @@ const PopUp = (props) => {
             <p className="text-[#b40e0e]">Enter valid email address</p>
           )}
           <button
-            className="sm:absolute h-[40px]  sm:w-[200px] w-[350px] left-[195px] sm:left-[325px] mt-[20px] sm:mt-[0px] top-[35px] rounded-3xl bg-[#9900cc] text-[15px] sm:text-[20px] leading-3 text-center text-[#ffffff] hover:bg-[#ffffff] hover:text-[#9900cc] hover:border-2 hover:border-[#9900cc]"
+            className="sm:absolute h-[40px]  sm:w-[200px] w-[100%] left-[195px] sm:left-[325px] mt-[20px] sm:mt-[0px] top-[35px] rounded-3xl bg-[#9900cc] text-[15px] sm:text-[20px] leading-3 text-center text-[#ffffff] hover:bg-[#ffffff] hover:text-[#9900cc] hover:border-2 hover:border-[#9900cc]"
             disabled={!formIsValid}
             id="submit"
           >

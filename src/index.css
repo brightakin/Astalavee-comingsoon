@@ -17,6 +17,7 @@
     font-size: 15px;
     margin-left: 12px;
   }
+
   @media (min-width: 640px) {
     input {
       height: 30px;
@@ -36,7 +37,7 @@
       line-height: 40px;
       letter-spacing: 0em;
       text-align: center;
-      color: #9900ccbf;
+      color: #9900cc;
       margin-left: -10px;
     }
   }
