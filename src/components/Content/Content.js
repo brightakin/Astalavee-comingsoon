@@ -29,7 +29,7 @@ const Content = (props) => {
         className="absolute h-[80px] w-[56px] top-[400px] right-[50px] lg:visible invisible"
         alt=""
       />
-      <div className="absolute h-[272px] lg:h-[514px] w-[209px]  lg:w-[395px] top-[300px] sm:top-[325px] lg:top-[500px] left-[90px] sm:left-[38%] lg:left-[37%]">
+      <div className="absolute h-[272px] lg:h-[514px] w-[209px]  lg:w-[395px] top-[300px] sm:top-[325px] lg:top-[500px] left-[26%] sm:left-[38%] lg:left-[37%]">
         <img src={comingSoonImage} alt="" />
       </div>
     </div>
